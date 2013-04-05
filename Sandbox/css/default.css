@@ -1,0 +1,178 @@
+/* Test CSS class to check file path refs are good */
+.test1 {
+    color:red;
+    font-size: 3em;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Page Layout */
+.span-16 {
+    border:1px solid #919191;
+}
+
+.left-col {
+    min-height: 100px;
+    width: 25%;
+    float:left;
+    border:1px solid #919191;
+}
+
+.right-col {
+    min-height: 350px;
+    width: 70%;
+    float:right;
+    border:1px solid #919191;
+}
+
+/* Drag and Drop List Content */
+#dragContent div {
+    height: 20px;
+    width: 100px;
+    background-color: #EEE;
+    border: 1px solid #000;
+    padding: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+
+#dropContent {
+
+}
+
+.ui-state-highlight { 
+    height: 1.5em; 
+    line-height: 1.2em; 
+}
+
+/* Sample Ballot */
+.ballot-container {
+    height:auto;
+    width:400px;
+    background: #eeeeee;
+    border:1px solid black;
+    -webkit-border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+}
+
+.ballot-title-container {
+    height: auto;
+}
+
+.ballot-title {
+    width:80%;
+    min-height: 20px;
+    background: black;
+    -webkit-border-radius: 5px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:-15px;
+    padding:5px;
+}
+
+.ballot-title-text {
+    width:95%;
+    min-height: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    border:2px dashed white;
+    color:white;
+    padding-left:5px;   
+}
+
+#ballot-instructions-container div {
+    height:auto;
+}
+
+.ballot-instructions {
+    width:80%;
+    min-height: 20px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    border:2px dashed black;
+    padding-left:5px;
+}
+
+.leftside {
+    width: 15%;
+}
+
+.checkbox {
+    height:20px;
+    width:20px;
+    float:left;
+    border:1px solid black;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.ballot-candidate-container {
+    width: 85%;
+    min-height:60px;
+    background:#ffffff;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    border:1px solid black;
+    -webkit-border-radius: 5px;
+}
+
+.ballot-candidate1 {
+    width:35%;
+    float:left;
+    height: 20px;
+    margin-left:50px;
+    margin-top:5px;
+    border:2px dashed black;
+    padding-left:5px;
+}
+
+.ballot-candidate2 {
+    width:35%;
+    float:right;
+    height: 20px;
+    margin-right:20px;
+    margin-top:5px;
+    border:2px dashed black;
+    padding-left:5px;
+}
+
+.ballot-candidate3 {
+    width:35%;
+    float:left;
+    height: 20px;
+    margin-left:50px;
+    margin-top:5px;
+    border:2px dashed black;
+    padding-left:5px;
+}
+
+.ballot-candidate4 {
+    width:35%;
+    float:right;
+    height: 20px;
+    margin-right:20px;
+    margin-top:5px;
+    border:2px dashed black;
+    padding-left:5px;
+}
+
+
+
+
+
+
+
+
+
+
+
