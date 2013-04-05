@@ -18,8 +18,8 @@ $(function() {
 
 
 $(function() {
-    $('#dragContent, .ballot-title-text, .ballot-instructions').sortable({
-        connectWith:['.ballot-title-text','.ballot-instructions','#dragContent'],
+    $('#dragContent,.ballot-title-text,.ballot-instructions,.ballot-candidate1,.ballot-candidate2,.ballot-candidate3,.ballot-candidate4').sortable({
+        connectWith:['.ballot-title-text','.ballot-instructions','#dragContent','.ballot-candidate1','.ballot-candidate2','.ballot-candidate3','.ballot-candidate4'],
         placeholder: "ui-state-highlight",
         cursor:'move',
         stop: function(){
