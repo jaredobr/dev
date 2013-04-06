@@ -10,21 +10,24 @@
 
 /* Page Layout */
 .span-16 {
-    border:1px solid #919191;
+    border:1px dashed #919191;
+    padding:10px;
 }
 
 .left-col {
     min-height: 100px;
     width: 25%;
     float:left;
-    border:1px solid #919191;
+    padding: 5px;
+    border:1px dashed #919191;
 }
 
 .right-col {
     min-height: 350px;
     width: 70%;
     float:right;
-    border:1px solid #919191;
+    padding: 5px;
+    border:1px dashed #919191;
 }
 
 /* Drag and Drop List Content */
@@ -184,7 +187,16 @@
     cursor: move;
 }
 
-
+.resetButton {
+    display: block;
+    background: -webkit-linear-gradient(#d13535 0%, #ffffff 100%);
+    font-size: 1.5em;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    -webkit-border-radius: 5px;
+    cursor: pointer;
+}
 
 .clear {
     clear:both;
