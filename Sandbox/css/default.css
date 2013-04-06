@@ -30,15 +30,15 @@
 /* Drag and Drop List Content */
 #dragContent div {
     height: 20px;
-    width: 100px;
+    width: 110px;
     background-color: #EEE;
     border: 1px solid #000;
     padding: 2px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 2px;
-    cursor: pointer;
-    font-size: 0.9em;
+    font-size: 1.15em;
+    cursor: move;
 }
 
 
@@ -69,7 +69,7 @@
 
 .ballot-title {
     width:80%;
-    min-height: 20px;
+    min-height: 30px;
     background: black;
     -webkit-border-radius: 5px;
     margin-left:auto;
@@ -80,12 +80,14 @@
 
 .ballot-title-text {
     width:95%;
-    min-height: 20px;
+    min-height: 25px;
     margin-left:auto;
     margin-right:auto;
     border:2px dashed white;
     color:white;
-    padding-left:5px;   
+    padding-left:5px;  
+    font-size: 1.5em;
+    cursor: move;
 }
 
 #ballot-instructions-container div {
@@ -94,17 +96,19 @@
 
 .ballot-instructions {
     width:80%;
-    min-height: 20px;
+    min-height: 25px;
     margin-left:auto;
     margin-right:auto;
     margin-top:10px;
     border:2px dashed black;
     padding-left:5px;
+    font-size: 1.25em;
+    cursor: move;
 }
 
 .ballot-candidate-container {
     width: 85%;
-    min-height:60px;
+    min-height:75px;
     background:#ffffff;
     margin-left:auto;
     margin-right:auto;
@@ -119,8 +123,8 @@
 }
  
 .checkbox {
-    height:20px;
-    width:20px;
+    height:25px;
+    width:25px;
     float:left;
     border:1px solid black;
     margin-top:10px;
@@ -135,41 +139,49 @@
 .ballot-candidate1 {
     width:40%;
     float:left;
-    min-height: 20px;
+    min-height: 25px;
     margin-top:5px;
     border:2px dashed black;
     padding-left:5px;
+    font-size: 1.25em;
+    cursor: move;
 }
 
 .ballot-candidate2 {
     width:40%;
     float:left;
-    min-height: 20px;
+    min-height: 25px;
     margin-left:20px;
     margin-top:5px;
     border:2px dashed black;
     padding-left:5px;
+    font-size: 1.25em;
+    cursor: move;
 }
 
 .ballot-candidate3 {
     width:40%;
     float:left;
-    min-height: 20px;
+    min-height: 25px;
     margin-top:5px;
     border:2px dashed black;
     padding-left:5px;
     clear:left;
+    font-size: 1.25em;
+    cursor: move;
 }
 
 .ballot-candidate4 {
     width:40%;
     float:left;
-    min-height: 20px;
+    min-height: 25px;
     margin-left:20px;
     margin-top:5px;
     border:2px dashed black;
     padding-left:5px;
     clear:right;
+    font-size: 1.25em;
+    cursor: move;
 }
 
 

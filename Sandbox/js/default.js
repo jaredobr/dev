@@ -18,14 +18,16 @@ $(function() {
 
 
 $(function() {
-    $('#dragContent,.ballot-title-text,.ballot-instructions,.ballot-candidate1,.ballot-candidate2,.ballot-candidate3,.ballot-candidate4').sortable({
-        connectWith:['.ballot-title-text','.ballot-instructions','#dragContent','.ballot-candidate1','.ballot-candidate2','.ballot-candidate3','.ballot-candidate4'],
+    $('#dragContent,.ballot-title-text,.ballot-instructions,.ballot-candidate1,.ballot-candidate2,.ballot-candidate3,.ballot-candidate4,.ballot-candidate11').sortable({
+        connectWith:['.ballot-title-text','.ballot-instructions','.ballot-candidate1','.ballot-candidate2','.ballot-candidate3','.ballot-candidate4','.ballot-candidate11'],
         placeholder: "ui-state-highlight",
+        opacity: '.5',
+        helper:'clone',
         cursor:'move',
         stop: function(){
             $('.ballot-title-text').css('color','white');
             $('.ballot-instructions').css('color','black');
-        }
+        },
     }).disableSelection();
 });
 
